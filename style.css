@@ -1,0 +1,13 @@
+button {
+    height: 2rem;
+    width: 5rem;
+}
+
+li {
+    display: none;
+    list-style: none;
+}
+
+.visible {
+    display: block;
+}
