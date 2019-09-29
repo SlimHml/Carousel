@@ -1,6 +1,8 @@
-button {
-    height: 2rem;
-    width: 5rem;
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
 }
 
 li {
@@ -8,6 +10,36 @@ li {
     list-style: none;
 }
 
+li img {
+    border-radius: 20px;
+    border: 30px solid  rgba(17, 5, 5, 0.1);
+}
+
+button {
+    height: 4rem;
+    width: 3rem;
+    margin-top: 10rem;
+    background-color: rgb(3, 1, 1);
+    opacity: .85;
+    border-radius: 80%;
+    box-shadow: white .7;
+    outline: none;
+}
+
+.nextButton {
+    margin-left: 2.5rem;
+}
+
 .visible {
     display: block;
+    width: 100%;
+    height: auto;
 }
+
+
+border: solid 3rem rgba(#000, .2);
+  height: 50vmin;
+  max-width: 13em;
+  max-height: 7em;
+  border-box /* background-origin */
+  padding-box /* background-clip */;

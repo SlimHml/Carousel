@@ -11,7 +11,7 @@ let i = 0;
 //La page est chargée avec la première LI (indexée 0) avec la classe Visible (dans le HTML), les deux autres sont invisibles.
 
 function nextImage() {
-    items[i].classList.remove("visible"); // Cette ligne va enlever la classe visibile de toutes les LI (sur pression du bouton)
+    items[i].classList.remove("visible"); // Cette ligne va enlever la classe visible de toutes les LI (sur pression du bouton)
     i++; // cette ligne permet de passer à l'index suivant de ma LI (1) puis (2)
     if (i == items.length) { // SI l'index est égal à la longueur maximum de ma liste de LI
     i = 0 // L'index repasse à (0)

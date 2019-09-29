@@ -26,6 +26,22 @@ function nextImage() {
     items[i].classList.add("visible");
 }
 
+function nextImageOnRightArrow (event) {
+    if (event.keyCode === 39) {
+        nextImage();
+    }
+}
+
+function previousImageOnLeftArrow (event) {
+    if (event.keyCode === 37) {
+        previousImage();
+    }
+}
+
 nextButton[0].addEventListener("click", nextImage);
 
 previousButton[0].addEventListener("click", previousImage);
+
+document.addEventListener("keydown", nextImageOnRightArrow);
+
+document.addEventListener("keydown", previousImageOnLeftArrow);
